@@ -1,0 +1,34 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets / credenciales Google
+credentials.json
+token.json
+
+# Variables de entorno
+.env
+
+# Archivos generados
+data/raw/*
+data/processed/*
+logs/*
+
+# Mantener carpetas vacías
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
